@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\harri\\source\\repos\\WOA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A8650856-1725-458C-98FE-3A3F7322D3BE}|weather-of-arrakis.esproj|c:\\users\\harri\\source\\repos\\woa\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A8650856-1725-458C-98FE-3A3F7322D3BE}|weather-of-arrakis.esproj|solutionrelative:package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A8650856-1725-458C-98FE-3A3F7322D3BE}|weather-of-arrakis.esproj|c:\\users\\harri\\source\\repos\\woa\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A8650856-1725-458C-98FE-3A3F7322D3BE}|weather-of-arrakis.esproj|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -39,14 +43,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\Users\\harri\\source\\repos\\WOA\\package-lock.json",
+              "RelativeDocumentMoniker": "package-lock.json",
+              "ToolTip": "C:\\Users\\harri\\source\\repos\\WOA\\package-lock.json",
+              "RelativeToolTip": "package-lock.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-20T08:36:13.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "package.json",
               "DocumentMoniker": "C:\\Users\\harri\\source\\repos\\WOA\\package.json",
               "RelativeDocumentMoniker": "package.json",
               "ToolTip": "C:\\Users\\harri\\source\\repos\\WOA\\package.json",
               "RelativeToolTip": "package.json",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBcAAAAWAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-20T08:03:37.594Z",
+              "WhenOpened": "2024-10-20T08:30:08.668Z",
               "EditorCaption": ""
             },
             {
