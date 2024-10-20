@@ -20,7 +20,8 @@
     "react-places-autocomplete": "^7.3.0",
     "react-router-dom": "^5.0.0",
     "react-scripts": "^5.0.1",
-    "serve": "^14.2.4"
+    "serve": "^14.2.4",
+    "typescript": "^4.9.5"
   },
   "devDependencies": {
     "@types/react": "^18.1.0",

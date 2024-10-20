@@ -20,6 +20,7 @@
     <PackageJsonDependenciesReactRouterDom Condition="$(PackageJsonDependenciesReactRouterDom) == ''">^5.0.0</PackageJsonDependenciesReactRouterDom>
     <PackageJsonDependenciesReactScripts Condition="$(PackageJsonDependenciesReactScripts) == ''">^5.0.1</PackageJsonDependenciesReactScripts>
     <PackageJsonDependenciesServe Condition="$(PackageJsonDependenciesServe) == ''">^14.2.4</PackageJsonDependenciesServe>
+    <PackageJsonDependenciesTypescript Condition="$(PackageJsonDependenciesTypescript) == ''">^4.9.5</PackageJsonDependenciesTypescript>
     <PackageJsonDevdependenciesTypesReact Condition="$(PackageJsonDevdependenciesTypesReact) == ''">^18.1.0</PackageJsonDevdependenciesTypesReact>
     <PackageJsonDevdependenciesTypesReactDom Condition="$(PackageJsonDevdependenciesTypesReactDom) == ''">^18.1.0</PackageJsonDevdependenciesTypesReactDom>
     <PackageJsonDevdependenciesVitejsPluginReact Condition="$(PackageJsonDevdependenciesVitejsPluginReact) == ''">^4.3.3</PackageJsonDevdependenciesVitejsPluginReact>
