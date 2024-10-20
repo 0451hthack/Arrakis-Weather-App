@@ -6,6 +6,9 @@ FROM node:lts-alpine AS build
 ENV NPM_CONFIG_UPDATE_NOTIFIER=false
 ENV NPM_CONFIG_FUND=false
 
+# app env variables
+ARG VITE_API_KEY
+
 # Create and change to the app directory.
 WORKDIR /app
 
