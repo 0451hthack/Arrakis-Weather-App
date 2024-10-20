@@ -8,7 +8,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import "../css/SearchWeather.css"
-import Fade from 'react-reveal/Fade'
 import axios from 'axios'
 import ReactDOM from 'react-dom'
 import SearchComponent from "../components/SearchComponent.jsx"
@@ -31,7 +30,7 @@ export default function SearchWeather() {
         <>
         <section>
                 <div className="searchContainer">
-                    <Fade bottom duration={1500}>
+                    
 
                     <img src="https://cdnb.artstation.com/p/assets/images/images/025/300/839/large/marcin-basta-1front.jpg?1585340882"
                         alt="caladan_landscape" className="searchBackground" />
@@ -43,7 +42,7 @@ export default function SearchWeather() {
                             Either way, you can search for whichever cities you desire, for the Dune Universe is as vast as our own. Refresh the page to enter
                         a new location.</p>
                         </div>        
-                    </Fade>
+                    
                 </div>
                 
                 <div className="reactWeatherContainer">

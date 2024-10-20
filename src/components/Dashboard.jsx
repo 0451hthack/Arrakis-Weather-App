@@ -6,15 +6,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { useState } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSun } from '@fortawesome/free-solid-svg-icons'
 import useEffect from 'react'
 import "../css/Dashboard.css"
 import Weather from './Weather'
 import ADWeather from './ADWeather'
 import WRWeather from './WRWeather'
 import axios from 'axios'
-import Fade from 'react-reveal/Fade'
 
 export default function Dashboard() {
 
@@ -123,7 +120,7 @@ export default function Dashboard() {
         <>
 
             <div className="wrapper">
-                <Fade bottom duration={1500}>
+                
 
 
                 <img src="https://cdnb.artstation.com/p/assets/images/images/073/599/075/large/alexander-winkler-dune-fanart2.jpg?1710044012"
@@ -136,7 +133,7 @@ export default function Dashboard() {
                     Well here you can get a sense of the current Arrakis weather, by looking at the forecasts for the desert filming locations used in the Dune movies.
     Thanks to OpenWeatherMap's API, your imagination is now a little more grounded in reality. Don't forget your stillsuit!</p>
                     </div>
-                </Fade>
+                
                
                         <div className="buttonGroup">
                     <button type="button" className="jordanDesert" onClick={jordanClick}>North Arab Desert, Jordan, Egypt</button>

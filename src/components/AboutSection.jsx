@@ -10,7 +10,6 @@ import ReactDOM from 'react-dom'
 import { useState } from 'react'
 import useEffect from 'react'
 import "../css/AboutSection.css"
-import Fade from 'react-reveal/Fade'
 import { Link } from 'react-router-dom';
 
 export default function AboutSection() {
@@ -26,7 +25,7 @@ export default function AboutSection() {
 
             <section>
             <div className="aboutWrapper">
-                    <Fade bottom duration={1500}>
+                    
 
 
                         <img src="https://64.media.tumblr.com/006d2b18ea611546f9a38472e91e6772/tumblr_oh0liugTTL1r7i8nxo2_1280.jpg"
@@ -44,7 +43,7 @@ export default function AboutSection() {
                                 stand-in for Arakeen, or a city in Italy to imagine yourself on Kaitain.
                         </p>
                         </div>
-                    </Fade>
+                    
 
                     <p className="paragraphTwo">To access the Github repository for this and my other projects, visit my portfolio site below.</p>
                     <div className="buttonContainer">
