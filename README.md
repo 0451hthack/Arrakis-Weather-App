@@ -3,7 +3,7 @@
 ## Author Details
 - Author: Harrison Thacker
 - Email: harrison.johnson.thacker@gmail.com
-- Version Of Application: 1.0
+- Version Of Application: 1.6
 - Period Of Development: Sept - Oct 2024
 
 ## Purpose Of Application
@@ -23,4 +23,5 @@ If any reception errors occur, then you must change the codebase and provide you
 
  <Br>
 
-## Heroku Link
+## Railway Link
+[Weather Of Arrakis](https://arrakis-weather-app-production.up.railway.app)
