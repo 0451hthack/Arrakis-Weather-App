@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\harri\\source\\repos\\WOA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8650856-1725-458C-98FE-3A3F7322D3BE}|weather-of-arrakis.esproj|c:\\users\\harri\\source\\repos\\woa\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A8650856-1725-458C-98FE-3A3F7322D3BE}|weather-of-arrakis.esproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8650856-1725-458C-98FE-3A3F7322D3BE}|weather-of-arrakis.esproj|c:\\users\\harri\\source\\repos\\woa\\src\\components\\dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A8650856-1725-458C-98FE-3A3F7322D3BE}|weather-of-arrakis.esproj|solutionrelative:src\\components\\dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A8650856-1725-458C-98FE-3A3F7322D3BE}|weather-of-arrakis.esproj|c:\\users\\harri\\source\\repos\\woa\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A8650856-1725-458C-98FE-3A3F7322D3BE}|weather-of-arrakis.esproj|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,29 +33,20 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\harri\\source\\repos\\WOA\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\harri\\source\\repos\\WOA\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-19T23:48:40.546Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dashboard.jsx",
-              "DocumentMoniker": "C:\\Users\\harri\\source\\repos\\WOA\\src\\components\\Dashboard.jsx",
-              "RelativeDocumentMoniker": "src\\components\\Dashboard.jsx",
-              "ToolTip": "C:\\Users\\harri\\source\\repos\\WOA\\src\\components\\Dashboard.jsx",
-              "RelativeToolTip": "src\\components\\Dashboard.jsx",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAABsAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-19T21:30:27.683Z",
+              "DocumentIndex": 0,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\harri\\source\\repos\\WOA\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Users\\harri\\source\\repos\\WOA\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAA8AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-20T08:03:37.594Z",
               "EditorCaption": ""
             },
             {

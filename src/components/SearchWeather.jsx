@@ -12,7 +12,6 @@ import Fade from 'react-reveal/Fade'
 import axios from 'axios'
 import ReactDOM from 'react-dom'
 import SearchComponent from "../components/SearchComponent.jsx"
-import ReactAnimatedWeather from 'react-animated-weather'
 import { useEffect, useState } from 'react'
 import PlacesAutocomplete, {
     geocodeByAddress,
