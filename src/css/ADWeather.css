@@ -1,0 +1,111 @@
+.adWeatherContainer {
+    width: 400px;
+    height: 285px;
+    background-color: #5c6aba;
+    justify-items: left;
+    left: 22em;
+    top: 30em;
+    border-radius: 25px;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+}
+
+
+.infoHeaderAD {
+    font-weight: bold;
+    font-size: 1.75em;
+}
+
+p {
+    font-size: 1.75em;
+}
+
+.adSubWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexColumnAD {
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.flexColumn2AD {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.widgetTitleAD {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.widgetDetailsAD {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+
+.weatherDescriptionAD {
+    font-size: 0.90em;
+}
+
+.weatherTempAD {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.widgetSubDetailsAD {
+    position: relative;
+}
+
+.weatherSubHeaderAD {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 0.5em;
+}
+
+.weatherImageAD {
+    width: 80px;
+    height: 60px;
+}
+
+@media (max-width: 400px) {
+    .adWeatherContainer {
+        width: 350px;
+        height: 285px;
+        background-color: #5c6aba;
+        justify-items: left;
+        left: 30em;
+        top: 90em;
+        border-radius: 25px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .adWeatherContainer {
+        width: 350px;
+        
+    }
+
+}
+
+@media (max-width: 800px) {
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100;
+    }
+}

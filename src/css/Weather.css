@@ -1,0 +1,122 @@
+.arabWeatherContainer {
+    width: 400px;
+    height: 285px;
+    background-color: #5c6aba;
+    justify-items: left;
+    left: 22em;
+    top: 30em;
+    border-radius: 25px;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+}
+
+h1 {
+    font-size: 2px;
+    font-weight: bold;
+}
+
+.infoHeader {
+    font-weight: bold;
+    font-size: 1.75em;
+}
+
+p {
+    font-size: 1.75em;
+}
+
+.arabSubWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexColumn {
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.flexColumn2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+                            
+}
+
+.widgetTitle {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.widgetDetails {
+    display:  flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+
+.weatherDescription {
+    font-size: 0.90em;
+}
+
+.weatherTemp {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.widgetSubDetails {
+    position: relative;
+}
+
+.weatherSubHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 0.5em;
+}
+
+.weatherImage {
+    width: 80px;
+    height: 60px;
+}
+
+@media (max-width: 400px) {
+    .arabWeatherContainer {
+        width: 350px;
+        height: 285px;
+        background-color: #5c6aba;
+        justify-items: left;
+        left: 30em;
+        top: 90em;
+        border-radius: 25px;
+    }
+
+
+
+}
+
+@media (max-width: 500px) {
+    .arabWeatherContainer {
+        width: 350px;
+       
+    }
+
+
+
+    
+}
+
+@media (max-width: 800px) {
+    
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100;
+    }
+}

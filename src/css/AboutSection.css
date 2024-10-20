@@ -1,0 +1,244 @@
+.aboutWrapper {
+    display: grid;
+    place-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 50;
+    text-align: center;
+    width: 1500px;
+    height: 900px;
+
+}
+
+.aboutBackground {
+    display: block;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: 'h1Font';
+    src: local('h1Font')url(./fonts/ExpandedHerbertarian.ttf) format('truetype');
+}
+
+
+.aboutTitle {
+    font-family: h1Font;
+    font-size: 3.5em;
+    position: absolute;
+    top: 0.5em;
+    left: 8em;
+    align-content: center;
+    color: #ff6a00;
+    padding-bottom: 0em;
+}
+
+.aboutParagraphContainer {
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 1100px;
+    top: 38em;
+    left: 8em;
+    right: 5em;
+}
+
+.aboutParagraph {
+    position: absolute;
+    color: #ffffff;
+    font-family: h1Font;
+    text-transform: uppercase;
+    font-size: 1.75em;
+}
+
+.paragraphTwo {
+    position: absolute;
+    color: #ffffff;
+    font-size: 1.25em;
+    top: 32em;
+    left: 13em;
+}
+
+.portfolioButton {
+    background-color: #9c2dad;
+    top: 42em;
+    left: 29em;
+    border: 1px solid black;
+    border-radius: 12px;
+    color: white;
+    padding: 25px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 8px 4px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.portfolioButton:hover {
+        color: white;
+        background-color: #cc0886;
+    }
+
+@media only screen and (max-width: 800px) {
+
+  
+}
+
+@media only screen and (max-width: 900px) {
+
+
+   
+}
+
+@media only screen and (max-width: 1000px) {
+
+
+    
+}
+
+@media only screen and (max-width: 1100px) {
+
+
+    .aboutWrapper {
+        width: 1100px;
+    }
+
+    .aboutTitle {
+        font-size: 3em;
+        left: 4.8em;
+    }
+
+    .aboutParagraphContainer {
+        font-size: 0.75em;
+        width: 850px;
+        left: 120em;
+        top: 41em;
+    }
+
+    .aboutParagraph {
+        left: 3em;
+    }
+
+    .portfolioButton {
+        top: 38em;
+        left: 3px;
+    }
+
+    .buttonContainer {
+        left: -5em;
+    }
+
+    .paragraphTwo {
+        left: -4em;
+        font-size: 1em;
+        top: 35em;
+    }
+}
+
+
+@media only screen and (max-width: 1300px) {
+
+    .aboutWrapper {
+        width: 1200px;
+    }
+
+    .aboutTitle {
+        left: 7em;
+    }
+
+    .aboutParagraphContainer {
+        left: 6em;
+    }
+
+    .portfolioButton {
+        left: 29em;
+    }
+
+    .paragraphTwo {
+        left: 12em;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+
+    .aboutWrapper {
+        width: 400px;
+    }
+
+    .aboutTitle {
+        left: -3em; 
+        font-size: 0.5em;
+    }
+
+    .aboutParagraphContainer {
+        left: -2em;
+        font-size: 0.5em;
+    }
+
+    .portfolioButton {
+        left: 5em;
+    }
+
+    .paragraphTwo {
+        left: 5em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .aboutWrapper {
+        width: 500px;
+    }
+
+    .aboutTitle {
+        font-size: 1.75em;
+        left: 2em;
+        right: 5em;
+        top: 0.25em;
+    }
+
+    .aboutParagraphContainer {
+        left: 2em;
+        top: 60em;
+        font-size: 0.5em;
+        width: 350px;
+    }
+
+    .portfolioButton {
+        top: 40em;
+        left: 5em;
+    }
+
+    .paragraphTwo {
+        top: 25em;
+        left: 5em;
+        width: 200px;
+        font-size: 1.3em;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    
+}
+
+@media only screen and (max-width: 1100px) {
+
+
+ 
+
+    
+}
+
+
+

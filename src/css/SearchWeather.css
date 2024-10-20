@@ -1,0 +1,338 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.searchContainer {
+    display: grid;
+    place-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 50;
+    text-align: center;
+    width: 1500px;
+    height: 1080px;
+}
+
+.searchBackground {
+    display: block;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: 'h1Font';
+    src: local('h1Font')url(./fonts/ExpandedHerbertarian.ttf) format('truetype');
+}
+
+.searchHeader {
+    font-family: h1Font;
+    font-size: 3.05em;
+    position: absolute;
+    top: 0.5em;
+    left: 6.5em;
+    align-content: center;
+    color: #ff6a00;
+    padding-bottom: 0em;
+}
+
+.searchParagraphContainer {
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    align-items: flex-end;
+    top: 24em;
+    left: 7em;
+    right: 17em;
+}
+
+.searchParagraph {
+    position: absolute;
+    color: #ffffff;
+    font-family: h1Font;
+    text-transform: uppercase;
+    font-size: 1.75em;
+}
+
+.searchComponent {
+   
+}
+
+
+.reactWeatherContainer {
+    display: flex;
+    position: absolute;
+    z-index: 50;
+    justify-content: flex-end;
+    align-items: center;
+    top: 95em;
+    left: 18em;
+    right: 20em;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .searchContainer {
+        width: 800px;
+    }
+
+    .searchHeader {
+        left: 0.1em;
+
+    }
+
+    .searchParagraphContainer {
+        left: 2em;
+    }
+
+    .searchParagraph {
+        font-size: 1.45em;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+   
+
+    .searchHeader {
+        left: 2.4em;
+    }
+
+    .searchParagraphContainer {
+        left: 2em;
+    }
+
+    .searchParagraph {
+        font-size: 1.45em;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+
+    .searchHeader {
+        left: 89px;
+    }
+
+    .searchParagraphContainer {
+        left: 9em;
+    }
+
+    .searchParagraph {
+        font-size: 1.45em;
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+    
+
+    .searchContainer {
+        width: 1100px;
+    }
+
+    .searchHeader {
+        font-size: 2.50em;
+        top: 0.5em;
+        left: 4.8em;
+    }
+
+    .searchParagraphContainer {
+        left: 9em;
+    }
+
+    .searchParagraph {
+        font-size: 1.45em;
+    }
+
+   
+}
+
+
+@media only screen and (max-width: 1300px) {
+
+    .searchHeader {
+        left: 5.5em;
+    }
+
+    .searchParagraphContainer {
+        left: 5em;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 400px) {
+
+
+    .searchHeader {
+        font-size: 1.3em;
+        left: 1.0em;
+        right: 5em;
+        top: 0.25em;
+    }
+
+    .searchParagraphContainer {
+        top: 90em;
+        width: 25px;
+        font-size: 0.70em;
+    }
+
+    .searchParagraph {
+        width: 200px;
+        left: 5.5em;
+        top: -15em;
+    }
+
+    .reactWeatherContainer {
+        top: 115em;
+        left: -10em;
+    }
+    
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+    .searchContainer {
+        width: 500px;
+    }
+
+    .searchHeader {
+        font-size: 1.5em;
+        left: 1.15em;
+        top: 0.25em;
+    }
+
+    .searchParagraphContainer {
+        left: 2em;
+        top: 26.5em;
+        width: 350px;
+    }
+
+    .searchParagraph {
+        font-size: 1.25em;
+    }
+
+    .reactWeatherContainer {
+        top: 95em;
+        left: 20em;
+        right: 20em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .jordanDesert {
+        top: 25em;
+        font-size: 0.90em;
+        left: 6em;
+        height: 2em;
+    }
+
+    .adDesert {
+        top: 30em;
+        font-size: 0.90em;
+        left: 6em;
+        height: 2em;
+    }
+
+    .wrDesert {
+        top: 35em;
+        font-size: 0.90em;
+        left: 6em;
+        height: 2em;
+    }
+
+    .widgetContainer {
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        float: left;
+        top: 40em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .jordanDesert {
+        top: 31em;
+        font-size: 0.90em;
+        left: 7em;
+        height: 2em;
+    }
+
+    .adDesert {
+        top: 35.5em;
+        font-size: 0.90em;
+        left: 7em;
+        height: 2em;
+    }
+
+    .wrDesert {
+        top: 40em;
+        font-size: 0.90em;
+        left: 7em;
+        height: 2em;
+    }
+
+    .widgetContainer {
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        float: left;
+        top: 42em;
+        left: 2em;
+        right: 2em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .jordanDesert {
+        top: 36em;
+        font-size: 0.90em;
+        left: 6em;
+        height: 2em;
+    }
+
+    .adDesert {
+        top: 40.5em;
+        font-size: 0.90em;
+        left: 6em;
+        height: 2em;
+    }
+
+    .wrDesert {
+        top: 45em;
+        font-size: 0.90em;
+        left: 6em;
+        height: 2em;
+    }
+
+    .widgetContainer {
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        float: left;
+        top: 45em;
+        left: 0.90em;
+        right: 0.17em;
+    }
+}

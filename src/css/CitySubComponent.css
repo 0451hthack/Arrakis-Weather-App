@@ -1,0 +1,60 @@
+.searchLogo {
+    width: 140px;
+    height: 140px;
+    margin: 40px auto;
+}
+
+.citySearchLabel {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    margin: 10px auto;
+}
+
+.searchForm {
+    margin: 20px;
+    border: black solid 1px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+
+.weatherSearchField {
+    font-size: 12px;
+    width: 15em;
+    left: 5em;
+    right: 2em;
+    outline: none;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.weatherSearchButton {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+    top: 28.2em;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 12px;
+    border: 1px solid black;
+    padding: 6px 24px;
+    color: white;
+    background-color: #1f4ebf;
+    transition-duration: 0.4s;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .weatherSearchButton {
+        left: -12.7em;
+    }
+
+}
+
+

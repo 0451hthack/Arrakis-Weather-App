@@ -1,0 +1,813 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    display: grid;
+    place-items: center;
+    flex-direction: column;
+    overflow: scroll;
+    position: relative;
+    z-index: 50;
+    text-align: center;
+}
+
+.arabWeather {
+    position: absolute;
+    top: 30em;
+    align-content: center;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+}
+
+.adWeather {
+    position: absolute;
+    top: 35em;
+    align-content: center;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+}
+
+.wrWeather {
+    position: absolute;
+    top: 40em;
+    align-content: center;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+}
+
+.widgetContainer {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    float: left;
+    top: 40em;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100;
+    }
+}
+
+@font-face {
+    font-family: 'h1Font';
+    src: local('h1Font')url(./fonts/ExpandedHerbertarian.ttf) format('truetype');
+}
+
+.jordanDesert {
+    left: 12em;
+}
+
+.adDesert {
+    left: 32em;
+}
+
+.wrDesert {
+    left: 55em;
+}
+
+h1, p {
+    color: #ffd800;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-family: h1Font;
+}
+
+p {
+    font-size: 1.75em;
+}
+
+.appTitle {
+    font-family: h1Font;
+    font-size: 3.5em;
+    position: absolute;
+    top: 0.5em;
+    align-content: center;
+    color: #ff6a00;
+    padding-bottom: 0em;
+}
+
+div.paragraphContainer {
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    align-items: flex-end;
+    top: 24em;
+    left: 7em;
+    right: 7em;
+}
+
+.weatherParagraph {
+    position: absolute;
+    color: #ffffff;
+    font-family: h1Font;
+    text-transform: uppercase;
+    font-size: 1.75em;
+}
+
+.divider {
+    display: inline-block;
+    align-items: center;
+}
+
+.widgetTip {
+    position: absolute;
+    color: #ffffff;
+    font-size: 1.25em;
+    top: 48em;
+}
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 4em;
+        top: -5em;
+    }
+
+    .weatherParagraph {
+        top: -25em;
+        font-size: 0.04em;
+    }
+
+    .appTitle {
+        top: 0.05em;
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 0.1em;
+    }
+
+    .buttonGroup {
+        float: left;
+    }
+
+    .jordanDesert {
+        left: 11em;
+        top: 22.5em;
+        width: 17em;
+        height: 4em;
+    }
+
+    .adDesert {
+        left: 22em;
+        top: 27em;
+        width: 17em;
+        height: 4em;
+    }
+
+    .wrDesert {
+        left: 34em;
+        top: 31.5em;
+        width: 17em;
+        height: 4em;
+    }
+
+    .buttonGroup {
+        display: block;
+    }
+
+    button {
+        font-size: 0.5em;
+        padding: 2px 5px;
+    }
+
+    .widgetContainer {
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        float: left;
+        top: 40em;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 4em;
+        top: -5em;
+    }
+
+    .weatherParagraph {
+        top: -25em;
+        font-size: 0.04em;
+    }
+
+    .appTitle {
+        top: 0.05em;
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 0.1em;
+    }
+
+    .buttonGroup {
+        float: left;
+    }
+
+    .jordanDesert {
+        left: 11em;
+        top: 22.5em;
+        width: 17em;
+        height: 4em;
+    }
+
+    .adDesert {
+        left: 22em;
+        top: 27em;
+        width: 17em;
+        height: 4em;
+    }
+
+    .wrDesert {
+        left: 34em;
+        top: 31.5em;
+        width: 17em;
+        height: 4em;
+    }
+
+    .buttonGroup {
+        display: block;
+    }
+
+    button {
+        font-size: 0.5em;
+        padding: 2px 5px;
+    }
+
+    .widgetContainer {
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        float: left;
+        top: 40em;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    h1 {
+        font-size: 4em;
+        top: -5em;
+    }
+
+    .weatherParagraph {
+        top: -12em;
+        font-size: 1.4em;
+    }
+
+    .appTitle {
+        top: 0.05em;
+    }
+
+    p {
+        font-size: 0.1em;
+    }
+
+    .buttonGroup {
+        float: left;
+    }
+
+    .jordanDesert {
+        left: 5em;
+        top: 22.5em;
+        width: 20em;
+        height: 4em;
+    }
+
+    .adDesert {
+        left: 22em;
+        top: 27em;
+        width: 20em;
+        height: 4em;
+    }
+
+    .wrDesert {
+        left: 37em;
+        top: 31.5em;
+        width: 20em;
+        height: 4em;
+    }
+
+    .buttonGroup {
+        display: block;
+    }
+
+    button {
+        font-size: 0.5em;
+        padding: 2px 5px;
+    }
+
+    .widgetContainer {
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        float: left;
+        top: 40em;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    h1 {
+        font-size: 3em;
+        top: -5em;
+    }
+
+    .weatherParagraph {
+        top: -9em;
+        font-size: 1.4em;
+    }
+
+    .appTitle {
+        top: 0.05em;
+    }
+
+    p {
+        font-size: 0.05em;
+    }
+
+
+    .jordanDesert {
+        left: 14.5em;
+        top: 26.5em;
+        width: 20em;
+        height: 4em;
+    }
+
+    .adDesert {
+        left: 14.5em;
+        top: 31em;
+        width: 20em;
+        height: 4em;
+    }
+
+    .wrDesert {
+        left: 14.5em;
+        top: 35.5em;
+        width: 20em;
+        height: 4em;
+    }
+
+    .buttonGroup {
+        display: block;
+    }
+
+    button {
+        font-size: 0.5em;
+        padding: 2px 5px;
+    }
+
+    .widgetContainer {
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        float: left;
+        top: 40em;
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .jordanDesert {
+        left: 6em;
+        top: 53em;
+        width: 17em;
+        height: 4em;
+    }
+
+    .adDesert {
+        left: 24em;
+        top: 53em;
+        width: 17em;
+        height: 4em;
+    }
+
+    .wrDesert {
+        left: 42em;
+        top: 53em;
+        width: 17em;
+        height: 4em;
+    }
+
+    .weatherParagraph {
+        top: -20em;
+        font-size: 1.4em;
+    }
+
+    .appTitle {
+        top: -0.5em;
+    }
+
+    .widgetContainer {
+        display: block;
+        top: 40em;
+    }
+
+    .arabWeather {
+        left: 25em;
+        top: 60em;
+        
+    }
+
+    .adWeather {
+        left: 25em;
+        top: 65em;
+        
+    }
+
+    .wrWeather {
+        left: 25em;
+        top: 70em;
+        
+    }
+
+}
+
+
+@media only screen and (max-width: 1300px) {
+
+    .jordanDesert {
+        top: 17em;
+    }
+
+    .adDesert {
+        top: 17em;
+    }
+
+    .wrDesert {
+        top: 17em;
+    }
+
+    .weatherParagraph {
+        top: -13em;
+        font-size: 1.4em;
+    }
+
+    .appTitle {
+        top: -0.1em;
+    }
+
+    .widgetContainer {
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        float: left;
+        top: 30em;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+
+    h1 {
+        font-size: 2px;
+    }
+
+    .weatherParagraph {
+        top: -6em;
+        font-size: -3px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    p {
+        font-size: 0.1em;
+    }
+
+    .buttonGroup {
+        float: left;
+    }
+
+    .jordanDesert {
+        top: 60em;
+        bottom: 100em;
+    }
+
+    .adDesert {
+        top: 45em;
+        bottom: 100em;
+    }
+
+    .wrDesert {
+        top: 150em;
+        bottom: 100em;
+    }
+
+    button {
+        font-size: 2px;
+    }
+
+    .widgetContainer {
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        float: left;
+        top: 40em;
+    }
+
+
+    .widgetTip {
+        font-size: 0.85em;
+        top: 74em;
+    }
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    div.background
+    {
+        width: 100%;
+    }
+
+    .appTitle {
+        top: 3em;
+        font-size: 2em;
+    }
+
+    .paragraphContainer {
+        top: 0.5em;
+        font-size: 0.75em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    .weatherParagraph {
+        font-size: 1.4em;
+        top: -12.5em;
+        text-align: center;
+        left: 0.01em;
+        right: 0.01em;
+    }
+
+    .buttonGroup {
+        float: none;
+        display: block;
+    }
+
+    button {
+        font-size: 3px;
+        border: 1px solid black;
+        padding: 10px 24px;
+        left: 6em;
+    }
+
+    .buttonGroup button {
+        padding: 10px 24px;
+        width: 55%;
+        height: 5%;
+    }
+
+    .jordanDesert {
+        top: 23em;
+        font-size: 0.90em;
+        left: 8.5em;
+        padding-right: 24px;
+    }
+
+    .adDesert {
+        top: 27.5em;
+        font-size: 0.90em;
+        left: 8.5em;
+    }
+
+    .wrDesert {
+        top: 32em;
+        font-size: 0.90em;
+        left: 8.5em;
+    }
+
+    .appTitle {
+        top: 0.50em;
+    }
+
+    .widgetContainer {
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        float: left;
+        top: 40em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .jordanDesert {
+        top: 29em;
+        font-size: 0.90em;
+        left: 7em;
+        height: 2em;
+    }
+
+    .adDesert {
+        top: 33.5em;
+        font-size: 0.90em;
+        left: 7em;
+        height: 2em;
+    }
+
+    .wrDesert {
+        top: 38em;
+        font-size: 0.90em;
+        left: 7em;
+        height: 2em;
+    }
+
+    .weatherParagraph {
+        font-size: 1.45em;
+        top: -14em;
+    }
+
+    .appTitle {
+        top: -0.1em;
+    }
+
+    .widgetContainer {
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        float: left;
+        top: 40em;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .jordanDesert {
+        top: 25em;
+        font-size: 0.90em;
+        left: 6em;
+        height: 2em;
+    }
+
+    .adDesert {
+        top: 30em;
+        font-size: 0.90em;
+        left: 6em;
+        height: 2em;
+    }
+
+    .wrDesert {
+        top: 35em;
+        font-size: 0.90em;
+        left: 6em;
+        height: 2em;
+    }
+
+    .widgetContainer {
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        float: left;
+        top: 40em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .jordanDesert {
+        top: 31em;
+        font-size: 0.90em;
+        left: 7em;
+        height: 2em;
+    }
+
+    .adDesert {
+        top: 35.5em;
+        font-size: 0.90em;
+        left: 7em;
+        height: 2em;
+    }
+
+    .wrDesert {
+        top: 40em;
+        font-size: 0.90em;
+        left: 7em;
+        height: 2em;
+    }
+
+    .widgetContainer {
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        float: left;
+        top: 42em;
+        left: 2em;
+        right: 2em;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .jordanDesert {
+        top: 36em;
+        font-size: 0.90em;
+        left: 6em;
+        height: 2em;
+    }
+
+    .adDesert {
+        top: 40.5em;
+        font-size: 0.90em;
+        left: 6em;
+        height: 2em;
+    }
+
+    .wrDesert {
+        top: 45em;
+        font-size: 0.90em;
+        left: 6em;
+        height: 2em;
+    }
+
+    .widgetContainer {
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        float: left;
+        top: 45em;
+        left: 0.90em;
+        right: 0.17em;
+    }
+}
+
+
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 12px;
+    position: absolute;
+    top: 26em;
+    align-content: center;
+    float: left;
+    display: inline-block;
+    margin: 4px 2px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 15px 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #1f4ebf;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #008aff;
+    color: white;
+}
+
+
+div.background {
+    display: block;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-attachment: fixed;
+}
+
+homePage {
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    bottom: 15%;
+}

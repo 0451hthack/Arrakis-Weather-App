@@ -1,0 +1,33 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.env
+.env
+
+/.vs/weather-of-arrakis/FileContentIndex/18654397-8be0-458b-9bcf-d97048007cb5.vsidx
+/.vs/weather-of-arrakis/FileContentIndex/2fd4c50d-bd2c-4cbc-a629-e1720ad6cb58.vsidx
+/.vs/weather-of-arrakis/FileContentIndex/7a3b5c7a-2649-4524-8c1a-3d1e58d2dca9.vsidx
+/.vs/weather-of-arrakis/FileContentIndex/a937ee6d-dba0-4a77-b9db-bf1e5e091e70.vsidx
+/.vs/weather-of-arrakis/FileContentIndex/d0284166-e417-4675-bf1c-5863dce0771d.vsidx
+/.vs/weather-of-arrakis/FileContentIndex

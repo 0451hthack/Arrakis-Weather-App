@@ -1,0 +1,25 @@
+.searchComponentContainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    width: 320px;
+    padding-bottom: 200px;
+    background: #ff6a00;
+    border-radius: 4px;
+    padding: 20px 10px;
+    box-shadow: 0 3px 6px 0 #555;
+    border-radius: 25px;
+}
+
+.citySection {
+    display: flex;
+    flex-direction: column;
+}
+
+.forecastSection {
+   display: flex;
+   flex-direction: column;
+}
+
+
